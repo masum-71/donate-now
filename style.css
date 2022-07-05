@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(67, 65, 65);
+}
+
+.banner {
+  width: 1440px;
+  height: 669px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to top,
+      rgba(32, 30, 30, 0.295),
+      rgba(148, 133, 133, 0.695)
+    ),
+    url(./images/donation8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-holder {
+  width: 1440px;
+  height: 669px;
+}
+.banner-content {
+  width: 826px;
+  height: 320px;
+  text-align: center;
+  color: white;
+}
