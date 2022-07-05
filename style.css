@@ -65,14 +65,15 @@ body {
   width: 60vw;
   margin: 100px auto;
   text-align: center;
-  /* background-color: rgb(230, 230, 230);
-  border-radius: 15px; */
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+  padding: 50px;
 }
 
-.donate-header {
+.sub-header {
   font-size: 35px;
+  font-weight: bold;
 }
-
 .donate-money {
   margin: 50px 0;
 }
@@ -126,14 +127,11 @@ body {
   margin: 0 auto;
 }
 
-.plan-heading h2 {
-  font-size: 35px;
-}
-
 .plan {
   width: 25%;
   margin: 25px 25px;
-  padding: 15px;
+  padding: 25px;
+  border-radius: 10px;
 }
 
 .plan:hover {
@@ -149,9 +147,28 @@ body {
 }
 
 .shelter {
-  background-color: rgb(250, 238, 224);
+  background-color: rgb(250, 234, 215);
 }
 
 .education {
-  background-color: #f1f8e5;
+  background-color: rgb(242, 253, 223);
+}
+
+
+/* Corporate Section Start here */
+
+.corporate{
+    width: 60vw;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.icon{
+    margin: 50px 0;
+}
+
+.icon img{
+    width: 80px;
+    margin: 0 80px;
+    cursor: pointer;
 }
