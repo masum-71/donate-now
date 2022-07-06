@@ -225,3 +225,48 @@ body {
   background-color: #ff5959;
   color: white;
 }
+
+/* Updates Section start here */
+
+.updates {
+  width: 1440px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.update-info {
+  width: 50%;
+  margin: 0 auto;
+  height: 150px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+form {
+  width: 100%;
+  position: relative;
+}
+
+form input {
+  width: 60%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+
+form label {
+  position: absolute;
+  right: 145px;
+  top: 0;
+  bottom: 0;
+  font-size: 18px;
+  background-color: #ff5959;
+  padding: 11px;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
