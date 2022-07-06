@@ -57,6 +57,11 @@ body {
   border-radius: 5px;
 }
 
+.btn:hover{
+  background-color: white;
+  color: #ff5959;
+}
+
 /* Banner Section End here */
 
 /* Donate Section start here */
