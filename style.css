@@ -243,11 +243,12 @@ body {
   width: 50%;
   margin: 0 auto;
   height: 150px;
-  background-color: bisque;
+  background-color: rgb(230, 230, 230);
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  border-radius: 15px;
 }
 
 form {
