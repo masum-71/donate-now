@@ -255,6 +255,7 @@ form input {
   padding: 10px;
   font-size: 18px;
   border: none;
+  outline: none;
   border-radius: 10px;
 }
 
@@ -269,4 +270,22 @@ form label {
   color: white;
   border-radius: 0 10px 10px 0;
   cursor: pointer;
+}
+
+/* footer Section start here */
+
+footer{
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(54, 52, 52);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer a{
+  color: white;
 }
